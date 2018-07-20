@@ -1,0 +1,53 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3551523, 2018-04-04T09:50:38-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: HelveticaNeueLTStd-Roman by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-helvetica/helvetica-55-roman/
+ * Copyright: Copyright &#x00A9; 1988, 1990, 1993, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * Licensed pageviews: 250,000
+ *
+ * Webfont: HelveticaNeueLTStd-Md by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-helvetica/helvetica-65-medium/
+ * Copyright: Copyright &#x00A9; 1988, 1990, 1993, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * Licensed pageviews: 250,000
+ *
+ * Webfont: DINCondensed-Regular by ParaType
+ * URL: https://www.myfonts.com/fonts/paratype/din-condensed/pt-din-condensed-40316/
+ * Copyright: Copyright &#x00A9; 1998 ParaType Inc., ParaType Ltd. All rights reserved.
+ * Licensed pageviews: 100,000
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3551523
+ *
+ * © 2018 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+
+@font-face {
+  font-weight: normal;
+  font-family: 'HelveticaNeueLTStd-Roman';
+  src: url('./fonts/363123_0_0.eot');
+  src: url('./fonts/363123_0_0.eot?#iefix') format('embedded-opentype'), url('./fonts/363123_0_0.woff2') format('woff2'), url('./fonts/363123_0_0.woff') format('woff'), url('./fonts/363123_0_0.ttf') format('truetype'), url('./fonts/363123_0_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: 'HelveticaNeueLTStd-Md';
+  src: url('./fonts/363123_1_0.eot');
+  src: url('./fonts/363123_1_0.eot?#iefix') format('embedded-opentype'), url('./fonts/363123_1_0.woff2') format('woff2'), url('./fonts/363123_1_0.woff') format('woff'), url('./fonts/363123_1_0.ttf') format('truetype'), url('./fonts/363123_1_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: 'DINCondensed-Regular';
+  src: url('./fonts/363123_2_0.eot');
+  src: url('./fonts/363123_2_0.eot?#iefix') format('embedded-opentype'), url('./fonts/363123_2_0.woff2') format('woff2'), url('./fonts/363123_2_0.woff') format('woff'), url('./fonts/363123_2_0.ttf') format('truetype'), url('./fonts/363123_2_0.svg#wf') format('svg');
+}
+
