@@ -26,7 +26,7 @@ export default class ImImToken extends Component {
               <div className="pt50 pb50 pl10 pr10 bg-white text-center" style={{borderRadius:'8px'}}>
                 <div className="mb10 fs24 color-black">List My Token </div>
                 <div className="mb15 fs18 color-black-2">List your token on loopring DEXs for free.</div>
-                <Typo.Button href="http://loopring.org/developers.html" target="_blank" shape="pill" boder="bordered" type="primary" size="large" className="m5 bg-primary color-white">
+                <Typo.Button href="https://goo.gl/forms/2RUdyJxOPTdSBkbZ2" target="_blank" shape="pill" boder="bordered" type="primary" size="large" className="m5 bg-primary color-white">
                   Apply To List
                 </Typo.Button>
               </div>
@@ -35,7 +35,7 @@ export default class ImImToken extends Component {
               <div className="pt50 pb50 pl10 pr10 bg-white text-center" style={{borderRadius:'8px'}}>
                 <div className="mb10 fs24 color-black">Become a DEX</div>
                 <div className="mb15 fs18 color-black-2">Revolutionize crypto trading experience.</div>
-                <Typo.Button href="http://loopring.org/developers.html" target="_blank" shape="pill" boder="bordered" type="primary" size="large" className="m5 bg-primary color-white">
+                <Typo.Button shape="pill" boder="bordered" type="primary" size="large" className="m5 bg-primary color-white">
                   Coming Soon
                 </Typo.Button>
               </div>

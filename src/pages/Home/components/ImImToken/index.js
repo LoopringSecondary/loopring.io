@@ -21,9 +21,23 @@ export default class ImImToken extends Component {
         <div className="fs50 color-black text-center font-weight">Embeddable H5DEX</div>
         <div className="pb50"></div>
         <div className="row justify-content-center ml0 mr0">
+          <div className="col-auto d-block d-sm-none">
+            <div class="cd-iphone-6 cd-scale-80">
+              <div class="cd-body">
+                <div class="cd-sound"></div>
+                <div class="cd-sleep"></div>
+                <div class="cd-camera"></div>
+                <div class="cd-ear"></div>
+                <div class="cd-home"></div>
+                <div class="cd-screen">
+                  <img src={require('../Devices/products/h5dex-imtoken/place-order.jpg')} />
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="col-auto d-flex align-items-center" style={{textAlign:'right'}}>
             <div className="text-center">
-              <img className="mb10" style={{borderRadius:'12px',width:'100px',height:'100px'}} src={require('../Devices/products/logos/imtoken.png')} />
+              <img className="mb10 d-none d-sm-block" style={{borderRadius:'12px',width:'100px',height:'100px',margin:'0 auto'}} src={require('../Devices/products/logos/imtoken.png')} />
               <div className="mt10 fs40 color-black">imToken H5DEX</div>
               <div className=" fs20 color-black-2">A H5DEX Embedded in imToken</div>
               <div hidden className="pt5 pb5 text-left">
@@ -60,7 +74,7 @@ export default class ImImToken extends Component {
               </div>
             </div>
           </div>
-          <div className="col-auto">
+          <div className="col-auto d-none d-sm-block">
             <div class="cd-iphone-6 cd-scale-80">
               <div class="cd-body">
                 <div class="cd-sound"></div>
@@ -74,7 +88,7 @@ export default class ImImToken extends Component {
               </div>
             </div>
           </div>
-          <div className="col-auto">
+          <div className="col-auto d-none d-sm-block">
             <div class="cd-iphone-6 cd-scale-80">
               <div class="cd-body">
                 <div class="cd-sound"></div>
@@ -88,7 +102,7 @@ export default class ImImToken extends Component {
               </div>
             </div>
           </div>
-          <div className="col-auto">
+          <div className="col-auto d-none d-sm-block">
             <div class="cd-iphone-6 cd-scale-80">
               <div class="cd-body">
                 <div class="cd-sound"></div>

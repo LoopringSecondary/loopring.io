@@ -18,7 +18,7 @@ export default class ImImToken extends Component {
       <div className="pt50 pb50">
         <div className="fs30 color-black-3 text-center font-weight">Solution 01</div>
         <div className="fs50 color-black text-center font-weight">Web Wallex </div>
-        <div className="text-center pt10 pb50 d-block d-sm-none">
+        <div className="text-center pt10 pb0 d-block d-sm-none">
           <div className="row justify-content-center ml0 mr0">
             <div className="col-auto">
               <div className="cd-mac cd-pro cd-center cd-scale-40">
@@ -47,7 +47,7 @@ export default class ImImToken extends Component {
             </div>
           </div>
         </div>
-        <div className="text-center pt50 pb50 d-none d-sm-block">
+        <div className="text-center d-none d-sm-block">
           <div className="pb50"></div>
           <div className="row justify-content-center ml0 mr0">
             <div className="col-auto d-flex align-items-center" style={{textAlign:'left'}}>
