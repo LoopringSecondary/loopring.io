@@ -17,12 +17,17 @@ export default class PlatformLanding extends Component {
     return (
       <div style={styles.wrapper}>
           <div className="container" style={{paddingTop:'150px',paddingBottom:'100px'}}>
-            <div className="text-center pt50 pb50">
-              <img className="mb10" style={{height:'45px'}} src={require('../../../../assets/images/logo-white.png')} />
-              <div className="fs50 color-white font-weight-bold">Loopring Ecosystem Solutions</div>
-              <div className="fs20 color-white">partners: wallets , exchanges , medias, socials etc</div>
+            <div className="text-center pt50 pb50 d-block d-sm-none">
+              <img className="mb20" style={{height:'32px'}} src={require('../../../../assets/images/logo-white.png')} />
+              <div className="fs30 color-white font-weight-bold" style={{letterSpacing:'0px'}}>Loopring DEX Solutions</div>
+              <div className="fs18 color-white mt15">100% Open Sourced for Wallets, Exchanges, and Social Media</div>
             </div>
-            <div className="row pt25 pb25 align-items-center justify-content-center">
+            <div className="text-center pt50 pb50 d-none d-sm-block">
+              <img className="mb20" style={{height:'45px'}} src={require('../../../../assets/images/logo-white.png')} />
+              <div className="fs60 color-white font-weight-bold" style={{letterSpacing:'4px'}}>Loopring DEX Solutions</div>
+              <div className="fs30 color-white mt15">100% Open Sourced for Wallets, Exchanges, and Social Media</div>
+            </div>
+            <div hidden className="row pt25 pb25 align-items-center justify-content-center">
               <div className="col p10 d-flex align-items-center justify-content-center">
                 <div className="text-center bg-primary d-flex align-items-center justify-content-center" style={{width:'220px',height:'220px',borderRadius:'50em'}}>
                   <div className="">

@@ -5,6 +5,7 @@ import ImCirculr from './components/ImCirculr';
 import ImImToken from './components/ImImToken';
 import ImLooprWallet from './components/ImLooprWallet';
 import ImLooprWallex from './components/ImLooprWallex';
+import JoinUs from './components/JoinUs';
 import PlatformIntro from './components/PlatformIntro';
 import PlatformToolsIntro from './components/PlatformToolsIntro';
 import PlatformJoinus from './components/PlatformJoinus';
@@ -28,10 +29,12 @@ export default class Home extends Component {
     return (
       <div className="bg-white w-100">
         {false && <Header />}
-        {true && <PlatformLanding />}
-        <LtDex />
-        <LtWallet />
-        <LtWallex />
+        <PlatformLanding />
+        <ImLooprWallex />
+        <ImCirculr />
+        <ImImToken />
+        <ImLooprWallet />
+        <JoinUs />
         <Footer />
       </div>
     );

@@ -16,8 +16,11 @@ export default class ImImToken extends Component {
 
   render() {
     return (
-      <div className="bg-primary" style={{paddingTop:'100px'}}>
-        <div className="row justify-content-center">
+      <div className="bg-grey-50 zb-b-t pt50 pb50">
+        <div className="fs30 color-black-3 text-center font-weight">Solution 04</div>
+        <div className="fs50 color-black text-center font-weight">Noncustodial Wallet</div>
+        <div className="pb50"></div>
+        <div className="row justify-content-center ml0 mr0">
           <div className="col-auto">
             <div class="cd-iphone-6 cd-scale-80">
               <div class="cd-body">
@@ -60,12 +63,11 @@ export default class ImImToken extends Component {
               </div>
             </div>
           </div>
-
           <div className="col-auto d-flex align-items-center" style={{textAlign:'right'}}>
             <div className="text-center">
               <img className="mb10" style={{borderRadius:'12px',width:'100px',height:'100px'}} src={require('../Devices/products/logos/loopr-ios.png')} />
-              <div className="fs40 color-white">Loopr Wallet</div>
-              <div className="fs20 color-white">an iOS wallet for trading's signature</div>
+              <div className="mt10 fs40 color-black">Loopr iOS</div>
+              <div className="fs20 color-black-2">A Native Wallet with Loopring DEX</div>
               <div hidden className="pt5 pb5 text-left">
                 <div className="fs14 pb5 color-grey-500">
                   ☉ Open sourced at 2018.07
@@ -81,17 +83,28 @@ export default class ImImToken extends Component {
                 </div>
               </div>
               <div className="pt10 pb10">
-                <Typo.Button shape="pill" size="large" className="m5 bg-black color-white">
-                  Coming Soon
-                </Typo.Button>
-                <Typo.Button href="http://loopring.org/developers.html" target="_blank" shape="pill" boder="bordered" type="primary" size="large" className="m5 bg-white">
-                  Document
-                </Typo.Button>
+
+                <div className="text-center d-block d-sm-none">
+                  <Typo.Button shape="pill" size="" className="m5 bg-primary color-white">
+                    Coming Soon
+                  </Typo.Button>
+                  <Typo.Button href="http://loopring.org/developers.html" target="_blank" shape="pill" boder="bordered" type="primary" size="" className="m5 bg-primary color-white">
+                    Learn More
+                  </Typo.Button>
+                </div>
+                <div className="text-center d-none d-sm-block">
+                  <Typo.Button shape="pill" size="large" className="m5 bg-primary color-white">
+                    Coming Soon
+                  </Typo.Button>
+                  <Typo.Button href="http://loopring.org/developers.html" target="_blank" shape="pill" boder="bordered" type="primary" size="large" className="m5 bg-primary color-white">
+                    Learn More
+                  </Typo.Button>
+                </div>
+
               </div>
             </div>
           </div>
         </div>
-        <ImTokenDevice />
       </div>
     );
   }

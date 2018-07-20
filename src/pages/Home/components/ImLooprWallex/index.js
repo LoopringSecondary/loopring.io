@@ -15,50 +15,68 @@ export default class ImImToken extends Component {
 
   render() {
     return (
-      <div className="pt50">
-        <div className="row justify-content-center">
-          <div className="col-auto d-flex align-items-center" style={{textAlign:'left'}}>
-            <div className="text-center">
-              <div className="fs40 color-white">Loopr Wallex</div>
-              <div className="fs20 color-white-2">a web DEX + a web wallet</div>
-              <div hidden className="pt5 pb5 text-left">
-                <div className="fs14 pb5 color-grey-500">
-                  ☉ Open sourced at 2018.07
-                </div>
-                <div className="fs14 pb5 color-grey-500">
-                  ☉ Easy to customize UI theme
-                </div>
-                <div className="fs14 pb5 color-grey-500">
-                  ☉ Trading without touching you privatekey
-                </div>
-                <div className="fs14 pb5 color-grey-500">
-                  ☉ Walelts Supported: Metamask, Ledger, TREZOR, Loopr, tokenenst
+      <div className="pt50 pb50">
+        <div className="fs30 color-black-3 text-center font-weight">Solution 01</div>
+        <div className="fs50 color-black text-center font-weight">Web Wallex </div>
+        <div className="text-center pt10 pb50 d-block d-sm-none">
+          <div className="row justify-content-center ml0 mr0">
+            <div className="col-auto">
+              <div className="cd-mac cd-pro cd-center cd-scale-40">
+                <div className="cd-top"></div>
+                <div className="cd-bottom"></div>
+                <div className="cd-camera"></div>
+                <div className="cd-notch"></div>
+                <div className="cd-screen">
+                  <img src={require('../Devices/products/wallex-loopr/place-order.png')} />
                 </div>
               </div>
-              <div className="pt10 pb10">
-                <Typo.Button href="http://loopr.loopring.io" target="_blank" shape="pill" size="large" className="m5 bg-primary color-white">
-                  Try a demo
-                </Typo.Button>
-                <Typo.Button href="http://loopring.org/developers.html" target="_blank" shape="pill" boder="bordered" size="large" className="m5 bg-primary color-white">
-                  Document
-                </Typo.Button>
+            </div>
+            <div className="col-auto d-flex align-items-center" style={{textAlign:'left'}}>
+              <div className="text-center pt15">
+                <div className="fs40 color-black">Loopr</div>
+                <div className="fs20 color-black-2">A Web Wallet with Loopring DEX </div>
+                <div className="pt10 pb10">
+                  <Typo.Button href="http://loopr.loopring.io" target="_blank" shape="pill" size="" className="m5 bg-primary color-white">
+                    Try The Demo
+                  </Typo.Button>
+                  <Typo.Button href="http://loopring.org/developers.html" target="_blank" shape="pill" boder="bordered" size="" className="m5 bg-primary color-white">
+                    Learn More
+                  </Typo.Button>
+                </div>
               </div>
             </div>
           </div>
-          <div className="col-auto">
-            <div className="cd-mac cd-pro cd-center">
-              <div className="cd-top"></div>
-              <div className="cd-bottom"></div>
-              <div className="cd-camera"></div>
-              <div className="cd-notch"></div>
-              <div className="cd-screen">
-                <img src={require('../Devices/products/wallex-loopr/place-order.png')} />
-              </div>
-            </div>
-          </div>
-
         </div>
-        <ImTokenDevice />
+        <div className="text-center pt50 pb50 d-none d-sm-block">
+          <div className="pb50"></div>
+          <div className="row justify-content-center ml0 mr0">
+            <div className="col-auto d-flex align-items-center" style={{textAlign:'left'}}>
+              <div className="text-center">
+                <div className="fs40 color-black">Loopr</div>
+                <div className="fs20 color-black-2">A Web Wallet with Loopring DEX </div>
+                <div className="pt10 pb10">
+                  <Typo.Button href="http://loopr.loopring.io" target="_blank" shape="pill" size="large" className="m5 bg-primary color-white">
+                    Try The Demo
+                  </Typo.Button>
+                  <Typo.Button href="http://loopring.org/developers.html" target="_blank" shape="pill" boder="bordered" size="large" className="m5 bg-primary color-white">
+                    Learn More
+                  </Typo.Button>
+                </div>
+              </div>
+            </div>
+            <div className="col-auto">
+              <div className="cd-mac cd-pro cd-center">
+                <div className="cd-top"></div>
+                <div className="cd-bottom"></div>
+                <div className="cd-camera"></div>
+                <div className="cd-notch"></div>
+                <div className="cd-screen">
+                  <img src={require('../Devices/products/wallex-loopr/place-order.png')} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

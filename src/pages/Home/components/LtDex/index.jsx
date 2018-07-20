@@ -18,7 +18,7 @@ export default class LtDex extends Component {
     return (
       <div style={styles.wrapper}>
         <div className="fs30 color-white-3 text-center font-weight">Solution 01</div>
-        <div className="fs50 color-white text-center font-weight">Decentralized Exchange</div>
+        <div className="fs50 color-white text-center font-weight">Web Decentralized Exchange</div>
         <ImCirculr />
         <ImImToken />
       </div>
