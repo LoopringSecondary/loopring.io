@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
 // 载入默认全局样式 normalize 、.clearfix 和一些 mixin 方法等
-import '../@hzbdesign/style/common/index.less';
-import '../@hzbdesign/style/buttons/buttons.scss';
+import '../common/style/common/index.less';
+import '../common/style/buttons/buttons.scss';
 import '@icedesign/base/reset.scss';
 import './theme.scss';
 import './assets/fonts.css';

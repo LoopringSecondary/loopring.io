@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ImTokenDevice from '../Devices/ImToken';
 import { Button,Icon } from '@icedesign/base';
-import Typo from '../../../../../@hzbdesign/typo';
+import Typo from '../../../../../common/typo';
 
 export default class ImImToken extends Component {
   static displayName = 'ImImToken';
