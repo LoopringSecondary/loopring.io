@@ -37,7 +37,7 @@ export default class ImImToken extends Component {
                 <div className="fs20 color-black-2">A Web Wallet with Loopring DEX </div>
                 <div className="pt10 pb10">
                   <Typo.Button href="http://loopr.loopring.io" target="_blank" shape="pill" size="" className="m5 bg-primary color-white">
-                    Try The Demo
+                    Trade Now
                   </Typo.Button>
                   <Typo.Button href="http://loopring.org/developers.html" target="_blank" shape="pill" boder="bordered" size="" className="m5 bg-primary color-white">
                     Learn More
@@ -56,7 +56,7 @@ export default class ImImToken extends Component {
                 <div className="fs20 color-black-2">A Web Wallet with Loopring DEX </div>
                 <div className="pt10 pb10">
                   <Typo.Button href="http://loopr.loopring.io" target="_blank" shape="pill" size="large" className="m5 bg-primary color-white">
-                    Try The Demo
+                    Trade Now
                   </Typo.Button>
                   <Typo.Button href="http://loopring.org/developers.html" target="_blank" shape="pill" boder="bordered" size="large" className="m5 bg-primary color-white">
                     Learn More
