@@ -56,16 +56,16 @@ export default class ImImToken extends Component {
               </div>
               <div className="pt10 pb10">
                 <div className="text-center d-block d-sm-none">
-                  <Typo.Button shape="pill" size="" className="m5 bg-primary color-white">
-                    Coming Soon
+                  <Typo.Button href="https://mp.weixin.qq.com/s/IukhhiEcOVK3JG_cwxuNKg" target="_blank" shape="pill" size="" className="m5 bg-primary color-white">
+                    Trade Now
                   </Typo.Button>
                   <Typo.Button href="http://loopring.org/developers.html" target="_blank" shape="pill" boder="bordered" size="" className="m5 bg-primary color-white">
                     Learn More
                   </Typo.Button>
                 </div>
                 <div className="text-center d-none d-sm-block">
-                  <Typo.Button shape="pill" size="large" className="m5 bg-primary color-white">
-                    Coming Soon
+                  <Typo.Button href="https://mp.weixin.qq.com/s/IukhhiEcOVK3JG_cwxuNKg" target="_blank" shape="pill" size="large" className="m5 bg-primary color-white">
+                    Trade Now
                   </Typo.Button>
                   <Typo.Button href="http://loopring.org/developers.html" target="_blank" shape="pill" boder="bordered" size="large" className="m5 bg-primary color-white">
                     Learn More

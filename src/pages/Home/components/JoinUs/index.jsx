@@ -27,7 +27,7 @@ export default class ImImToken extends Component {
                 <div className="mb10 fs24 color-black">List My Token </div>
                 <div className="mb15 fs18 color-black-2">List your token on loopring DEXs for free.</div>
                 <Typo.Button href="https://goo.gl/forms/2RUdyJxOPTdSBkbZ2" target="_blank" shape="pill" boder="bordered" type="primary" size="large" className="m5 bg-primary color-white">
-                  Apply To List
+                  Apply
                 </Typo.Button>
               </div>
             </div>
@@ -35,8 +35,8 @@ export default class ImImToken extends Component {
               <div className="pt50 pb50 pl10 pr10 bg-white text-center" style={{borderRadius:'8px'}}>
                 <div className="mb10 fs24 color-black">Become a DEX</div>
                 <div className="mb15 fs18 color-black-2">Revolutionize crypto trading experience.</div>
-                <Typo.Button shape="pill" boder="bordered" type="primary" size="large" className="m5 bg-primary color-white">
-                  Coming Soon
+                <Typo.Button href="https://wj.qq.com/s/2329875/d6a0" target="_blank" shape="pill" boder="bordered" type="primary" size="large" className="m5 bg-primary color-white">
+                  Apply
                 </Typo.Button>
               </div>
             </div>
@@ -44,9 +44,8 @@ export default class ImImToken extends Component {
               <div className="pt50 pb50 pl10 pr10 bg-white text-center" style={{borderRadius:'8px'}}>
                 <div className="mb10 fs24 color-black">Provide Liquidity</div>
                 <div className="mb15 fs18 color-black-2">Become a market maker to make money.</div>
-                <Typo.Button shape="pill" boder="bordered" type="primary" size="large" className="m5 bg-primary color-white">
-                  Coming Soon
-                  {/*Join DEX Alliance*/}
+                <Typo.Button href="https://wj.qq.com/s/2329875/d6a0" target="_blank" shape="pill" boder="bordered" type="primary" size="large" className="m5 bg-primary color-white">
+                  Apply
                 </Typo.Button>
               </div>
             </div>
