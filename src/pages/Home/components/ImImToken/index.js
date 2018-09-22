@@ -56,7 +56,7 @@ export default class ImImToken extends Component {
               </div>
               <div className="pt10 pb10">
                 <div className="text-center d-block d-sm-none">
-                  <Typo.Button href="https://mp.weixin.qq.com/s/IukhhiEcOVK3JG_cwxuNKg" target="_blank" shape="pill" size="" className="m5 bg-primary color-white">
+                  <Typo.Button href="https://medium.com/loopring-protocol/loopringdex-is-now-available-on-imtoken-6cff91b2545f" target="_blank" shape="pill" size="" className="m5 bg-primary color-white">
                     Trade Now
                   </Typo.Button>
                   <Typo.Button href="http://loopring.org/developers.html" target="_blank" shape="pill" boder="bordered" size="" className="m5 bg-primary color-white">
@@ -64,7 +64,7 @@ export default class ImImToken extends Component {
                   </Typo.Button>
                 </div>
                 <div className="text-center d-none d-sm-block">
-                  <Typo.Button href="https://mp.weixin.qq.com/s/IukhhiEcOVK3JG_cwxuNKg" target="_blank" shape="pill" size="large" className="m5 bg-primary color-white">
+                  <Typo.Button href="https://medium.com/loopring-protocol/loopringdex-is-now-available-on-imtoken-6cff91b2545f" target="_blank" shape="pill" size="large" className="m5 bg-primary color-white">
                     Trade Now
                   </Typo.Button>
                   <Typo.Button href="http://loopring.org/developers.html" target="_blank" shape="pill" boder="bordered" size="large" className="m5 bg-primary color-white">
